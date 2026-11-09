@@ -21,6 +21,9 @@ DerivedData
 *.ipa
 *.xcuserstate
 **/.xcode.env.local
+.env
+android/app/build/
+*.apk
 
 # Android/IntelliJ
 #
@@ -73,3 +76,10 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+
+
+android/build/
+android/.gradle/
+android/app/src/main/assets/index.android.bundle
